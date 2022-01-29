@@ -52,6 +52,7 @@ Cara berkontribusi untuk menulis materi belajar PHP adalah sebagai berikut :
 - Fork Repository di akun github kamu
 - Clone ke Komputer Lokal kamu
 - Tulis materi kamu dalam format Markdown ```( nama_materi.md )```
+- Simpan di Folder ```Content/id/posts```
 - Setelah itu lakukan Commit dan Pull Request
 - Paling lambat 2/3 hari setelah Pull akan di Merge
 

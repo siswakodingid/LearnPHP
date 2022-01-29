@@ -1,0 +1,44 @@
+baseURL = "https://bucin-kode.github.io"
+languageCode = "id-ID"
+title = "LearnPHP by bucinkode"
+theme = "one"
+DefaultContentLanguage = "id"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+  name = "andikatulusp"
+  homepage = "https://bio.link/andikatulusp"
+
+[params]
+mainSections = ["posts"]
+headTitle = "LearnPHP"
+description = "by Bucinkode"
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+
+[[params.socials]]
+name = "🏠 Beranda"
+link = "https://bio.link/andikatulusp"
+
+[[params.socials]]
+name = "👦 Penulis"
+link = "https://bio.link/andikatulusp"
+
+[[params.socials]]
+name = "🤝 Kontribusi"
+link = "https://github.com/bucin-kode/LearnPHP"
+
+
+[languages]
+  [languages.id]
+    contentDir = "content/id"
+    languageName = "Indonesia"
+    weight = 1

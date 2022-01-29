@@ -1,10 +1,12 @@
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
 
 /* global */
 
 body {
-  font-family: 'Bree Serif', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
   background-color: #0d1117;
@@ -46,7 +48,8 @@ a:hover {
   overflow: auto;
   border-radius: 10px;
   background-color: #161b22 !important;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
 }
 
 .markdown-body code {
@@ -54,7 +57,8 @@ a:hover {
   font-size: 12px;
   background-color: #161b22;
   border-radius: 6px;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
 }
 
 /* reset code */
@@ -64,7 +68,8 @@ a:hover {
   font-size: 12px;
   background-color: #161b22;
   border: 0;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
 }
 
 /* i18n */
@@ -83,7 +88,7 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 32px;
-  font-family: 'Poppins', Bree Serif, sans-serif;
+  font-family: "Poppins", Bree Serif, sans-serif;
 }
 .header-title a {
   text-decoration: none;
@@ -108,7 +113,7 @@ a:hover {
   border-style: dashed;
 }
 
-#line-title{
+#line-title {
   width: 100%;
   border-width: 1px;
   border-color: #f8f8f2;
@@ -260,6 +265,11 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
+  body{
+    font-weight: normal !important;
+  }
+
   .header-title,
   .header-subtitle,
   .header-items {
@@ -269,9 +279,11 @@ a:hover {
   .posts-line {
     font-size: 16px;
   }
-
   .markdown-body {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .post-content img {
+    max-width: 70%;
   }
   .post-title {
     font-size: 20px;
@@ -288,7 +300,7 @@ a:hover {
     overflow: auto;
     border-radius: 10px;
     background-color: #161b22 !important;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace;
     word-break: break-all !important;
   }
 
@@ -297,7 +309,7 @@ a:hover {
     font-size: 14px;
     background-color: #161b22;
     border-radius: 6px;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace;
     word-break: break-all !important;
   }
 
@@ -308,10 +320,10 @@ a:hover {
     font-size: 14px;
     background-color: #161b22;
     border: 0;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace;
     word-break: break-all !important;
   }
-  #line-nav{
+  #line-nav {
     display: none;
   }
 }

@@ -13,6 +13,7 @@
   <link rel="dns-prefetch" href="{{ .Site.Params.staticPrefix }}" />
   {{- end -}}
 
+  <!-- Meta OG -->
   {{- if .Site.Params.favicon -}}
   <link rel="apple-touch-icon" href="{{ .Site.Params.favicon }}" />
   <link rel="icon" href="{{ .Site.Params.favicon }}" />
@@ -20,6 +21,7 @@
   {{- end -}}
   <link rel="alternate" type="application/atom+xml" href="{{.Site.BaseURL}}index.xml" title="{{ .Site.Title }}">
 
+  <!-- SEO -->
   {{ partial "seo" . }}
 
   {{- if .IsHome -}}
@@ -53,16 +55,9 @@
 
   <link href="{{ .Site.Params.staticPrefix }}{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml"
     title="{{ .Site.Title }}">
-  <!-- fonts -->
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Bungee+Shade" rel="stylesheet">
-  <!-- quicklink require -->
-  <!-- <script>
-    /* Disable minification (remove `.min` from URL path) for more info 
-    https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver
-    */
-    (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
-  </script> -->
 
   {{ if .Site.Params.TwitterCards }}{{ template "_internal/twitter_cards.html" . }}{{ end }}
   {{ .Site.Params.extraHead | safeHTML }}

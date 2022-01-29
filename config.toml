@@ -23,6 +23,7 @@ mainSections = ["posts"]
 headTitle = "KuliahPHP"
 description = "by Bucinkode"
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+twitterCards = true
 
 [[params.socials]]
 name = "🏠 Beranda"
@@ -30,12 +31,11 @@ link = "https://bucin-kode.github.io/kuliahphp"
 
 [[params.socials]]
 name = "👦 Penulis"
-link = "https://bio.link/andikatulusp"
+link = "/about"
 
 [[params.socials]]
 name = "🤝 Kontribusi"
 link = "https://github.com/bucin-kode/LearnPHP"
-
 
 [languages]
   [languages.id]

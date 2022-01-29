@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+
+<body>
+    <article class="post {{ .Site.Language.LanguageName }}" id="article">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="site-header">
+                    {{ partial "header.html" . }}
+                </div>
+
+                <section> {{ .Content }} </section>
+
+                {{ partial "footer.html" . }}
+            </div>
+        </div>
+    </article>
+
+    {{ partial "scripts.html" . }}
+    {{ if .Site.Params.extraBody }}
+    {{ .Site.Params.extraBody | safeHTML }}
+    {{ end }}
+
+</body>
+
+</html>

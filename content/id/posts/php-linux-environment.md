@@ -57,11 +57,11 @@ Terminal=true
 - Buka File Installer dengan cara klik 2x pada File
 - Tekan Next, dan di saat pemilihan Komponen silakan centang ```Apache, MySQL, PHP ( Jika ada ), phpMyAdmin``` dan untuk pilihan lainnya biarkan seperti semula.  
 
-![Screenshot Pemilihan Komponen XAMPP Windows, source by Niagahoster](https://www.niagahoster.co.id/blog/wp-content/uploads/2017/05/cara-instal-xampp-di-windows-7.png)
+![images Screenshot Pemilihan Komponen XAMPP Windows, source by Niagahoster](https://www.niagahoster.co.id/blog/wp-content/uploads/2017/05/cara-instal-xampp-di-windows-7.png)
 
 - Pada pemilihan Folder Instalasi, biarkan saja dan Klik "Next" sampai proses instalasi berjalan. 
 
-![Screenshot Proses Instalasi XAMPP Windows, source by Niagahoster](https://www.niagahoster.co.id/blog/wp-content/uploads/2017/05/menginstal-xampp-e1494822633442.png) 
+![images Screenshot Proses Instalasi XAMPP Windows, source by Niagahoster](https://www.niagahoster.co.id/blog/wp-content/uploads/2017/05/menginstal-xampp-e1494822633442.png) 
 
 - Setelah selesai, bisa klik "Finish"
 

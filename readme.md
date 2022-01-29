@@ -13,7 +13,7 @@ Repository ini hanyalah catatan saya selama belajar PHP Programming.
 - XAMPP [Download](https://www.apachefriends.org/) 
 - Installasi PHP, Apache2, MySQL [PetaniKode](https://www.petanikode.com/pemrograman-web-di-linux/)
 
-### Referensi
+### 🔎 Referensi
 - Panduan Lengkap Belajar Menulis dengan Markdown [Baca Artikel](https://www.petanikode.com/markdown-pemula/) 
 - Tutorial Git dan Github [Baca Artikel](https://www.petanikode.com/tutorial/git/)
 

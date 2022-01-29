@@ -28,7 +28,10 @@
   <title>{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Site.Title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta property="og:site_name" content="KuliahPHP">
+  <meta property="og:description" content="Situs Catatan Belajar PHP di Kuliah">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/bucin-kode/kuliahphp/master/IMG_20220109_180928_738.jpg">
   <meta name="description" content="{{ .Site.Params.description }}" />
   {{- else -}}
   <title>{{ .Title }}</title>
@@ -36,6 +39,8 @@
   <meta property="og:type" content="article" />
   <meta property="og:description" content="{{ default .Summary .Description | plainify }}" />
   <meta name="description" content="{{ default .Summary .Description | plainify }}" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/bucin-kode/kuliahphp/master/IMG_20220109_180928_738.jpg">
   {{- end }}
   <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
   {{- if .Params.album -}}

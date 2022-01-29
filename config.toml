@@ -1,6 +1,7 @@
 baseURL = "https://bucin-kode.github.io/kuliahphp/"
 languageCode = "id-ID"
 title = "KuliahPHP by bucinkode"
+description = "Situs Catatan Belajar PHP di Kuliah"
 theme = "one"
 DefaultContentLanguage = "id"
 
@@ -12,7 +13,7 @@ DefaultContentLanguage = "id"
     guessSyntax = true
     noClasses = true
     style = "bw"
-    tabWidth = 2
+    tabWidth = 3
 
 [author]
   name = "andikatulusp"
@@ -24,6 +25,7 @@ headTitle = "KuliahPHP"
 description = "by Bucinkode"
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 twitterCards = true
+favicon = "https://raw.githubusercontent.com/bucin-kode/kuliahphp/master/IMG_20220109_180928_738.jpg"
 
 [[params.socials]]
 name = "🏠 Beranda"

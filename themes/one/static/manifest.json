@@ -1,0 +1,10 @@
+{
+  "name": "KuliahPHP",
+  "short_name": "KuliahPHP",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF"
+}
+

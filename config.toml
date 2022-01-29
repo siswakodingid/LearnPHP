@@ -31,7 +31,7 @@ link = "https://bucin-kode.github.io/kuliahphp"
 
 [[params.socials]]
 name = "👦 Penulis"
-link = "/about"
+link = "/kuliahphp/about"
 
 [[params.socials]]
 name = "🤝 Kontribusi"

@@ -1,0 +1,16 @@
+{
+    "name": "KuliahPHP",
+    "short_name": "KuliahPHP",
+    "description": "List Belajar PHP",
+    "icons": [
+        {
+            "src": "https://camo.githubusercontent.com/53ef5222bda6cc6486890376ecd125dc5c418721af874139b85995941cdbae12/68747470733a2f2f63646e332e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f706f70756c61722d73657276696365732d6272616e64732f3531322f7068702d3235362e706e67",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://bucin-kode.github.io/kuliahphp/",
+    "display": "fullscreen",
+    "theme_color": "#ffffff",
+    "background_color": "#0d1117"
+}

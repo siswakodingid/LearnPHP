@@ -9,7 +9,7 @@ Repository ini hanyalah catatan saya selama belajar PHP Programming.
 - Bahasa Dalam Repository ini : Bahasa Indonesia
 - Situs Resmi : [Web](https://www.php.net/ "Pergi ke Official Page")
 
-### 🎒 Tools
+### 🎒 Alat
 - XAMPP [Download](https://www.apachefriends.org/) 
 - Installasi PHP, Apache2, MySQL [PetaniKode](https://www.petanikode.com/pemrograman-web-di-linux/)
 
@@ -41,15 +41,21 @@ Repository ini hanyalah catatan saya selama belajar PHP Programming.
 ##### PHP MVC
 - [ ] ...
 
-
 ### 🗃️ Path Materi 
 Path dibuat agar materi menjadi terstruktur sehingga mempermudah pembelajaran.
-
 
 ### 🛠️ Troubleshooting
 Jika mengalami kesulitan atau kurang memahami Dokumentasi atau untuk error coding bisa ditanyakan di [Kotakode](kotakode.com) atau [Stackoverflow](stackoverflow.com)
 
-### 🙏 Thanks 
+### 🤝 Kontribusi  
+Cara berkontribusi untuk menulis materi belajar PHP adalah sebagai berikut :
+- Fork Repository di akun github kamu
+- Clone ke Komputer Lokal kamu
+- Tulis materi kamu dalam format Markdown ```( nama_materi.md )```
+- Setelah itu lakukan Commit dan Pull Request
+- Paling lambat 2/3 hari setelah Pull akan di Merge
+
+### 🙏 Terima Kasih 
 - Allah SWT
 - My Parents
 - My Family

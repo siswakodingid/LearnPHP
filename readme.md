@@ -8,6 +8,7 @@ Repository ini hanyalah catatan saya selama belajar PHP Programming.
 
 - Bahasa Dalam Repository ini : Bahasa Indonesia
 - Situs Resmi : [Web](https://www.php.net/ "Pergi ke Official Page")
+- Github Pages : [KuliahPHP](https://bucin-kode.github.io/kuliahphp/)
 
 ### 🎒 Alat
 - XAMPP [Download](https://www.apachefriends.org/) 

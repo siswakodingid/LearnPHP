@@ -1,6 +1,6 @@
 baseURL = "https://bucin-kode.github.io/kuliahphp/"
 languageCode = "id-ID"
-title = "LearnPHP by bucinkode"
+title = "KuliahPHP by bucinkode"
 theme = "one"
 DefaultContentLanguage = "id"
 
@@ -20,7 +20,7 @@ DefaultContentLanguage = "id"
 
 [params]
 mainSections = ["posts"]
-headTitle = "LearnPHP"
+headTitle = "KuliahPHP"
 description = "by Bucinkode"
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 

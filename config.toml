@@ -1,4 +1,4 @@
-baseURL = "https://bucin-kode.github.io"
+baseURL = "https://bucin-kode.github.io/kuliahphp/"
 languageCode = "id-ID"
 title = "LearnPHP by bucinkode"
 theme = "one"

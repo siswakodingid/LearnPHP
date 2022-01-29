@@ -165,7 +165,10 @@ a:hover {
   max-width: 100%;
   display: block;
   margin-right: auto;
+  margin-left: 40px;
   margin-top: 12px;
+  border-radius: 5px;
+  border: solid 5px white;
 }
 
 .post-header {

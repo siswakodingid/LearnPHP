@@ -49,11 +49,13 @@ Terminal=true
 > sudo chmod 775 /opt/lampp 
 ```
 
+----------
+
 ## B. Instalasi XAMPP Windows
 
 - Download XAMPP : [XAMPP Windows](https://www.apachefriends.org/xampp-files/8.1.2/xampp-windows-x64-8.1.2-0-VS16-installer.exe)  
 - Buka File Installer dengan cara klik 2x pada File
-- Tekan Next, dan di saat pemilihan Komponen silakan centang ```Apache, MySQL, PHP ( Jika ada ), phpMyAdmin, Perl``` dan untuk pilihan lainnya biarkan seperti semula.  
+- Tekan Next, dan di saat pemilihan Komponen silakan centang ```Apache, MySQL, PHP ( Jika ada ), phpMyAdmin``` dan untuk pilihan lainnya biarkan seperti semula.  
 
 ![Screenshot Pemilihan Komponen XAMPP Windows, source by Niagahoster](https://www.niagahoster.co.id/blog/wp-content/uploads/2017/05/cara-instal-xampp-di-windows-7.png)
 
@@ -65,6 +67,6 @@ Terminal=true
 
 ### > Cara Menjalankan XAMPP di Windows
 - Buka Search pada Taskbar dan Cari XAMPP
-- Setelah terbuka, klik ```Start``` pada Apache dan MySql
+- Setelah terbuka, klik [Start](#) pada Apache dan MySql
 - Lalu cek apakah XAMPP berjalan atau tidak, dengan cara buka halaman [localhost](http://localhost) 
   

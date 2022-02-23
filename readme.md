@@ -22,7 +22,7 @@ Repository ini hanyalah catatan saya selama belajar PHP Programming.
 
 #### PHP Fundamental
 - [x] Instalasi PHP Web Server XAMPP
-- [ ] Hello World
+- [x] Hello World
 - [ ] Variable
 - [ ] Tipe Data
 - [ ] Operators
